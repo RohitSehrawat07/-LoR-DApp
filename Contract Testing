@@ -1,0 +1,26 @@
+test/LoR.test.js
+const { expect } = require("chai");
+
+describe("LoR", function () {
+
+  it("Should add student", async function () {
+
+    const LoR =
+      await ethers.getContractFactory("LoR");
+
+    const lor =
+      await LoR.deploy();
+
+    await lor.addStudent(
+      "Rahul",
+      "BCA",
+      "rahul@gmail.com"
+    );
+
+    const student =
+      await lor.getStudent(1);
+
+    expect(student[1]).to.equal("Rahul");
+  });
+
+});
