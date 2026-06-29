@@ -1,0 +1,23 @@
+npm start
+
+Screenshots Required
+
+Create:
+
+screenshots/
+
+Add:
+
+1. Contract Deployment
+screenshots/deployed-contract.png
+
+(Etherscan page)
+
+2. Add Student
+screenshots/add-student.png
+3. Request Recommendation
+screenshots/request-lor.png
+4. Approve Recommendation
+screenshots/approve-lor.png
+5. View Student
+screenshots/view-student.png
