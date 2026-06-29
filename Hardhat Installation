@@ -1,0 +1,10 @@
+mkdir lor-dapp
+cd lor-dapp
+
+npm init -y
+
+npm install --save-dev hardhat
+npx hardhat
+
+npm install dotenv
+npm install @nomicfoundation/hardhat-toolbox
