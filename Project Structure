@@ -1,0 +1,25 @@
+lor-dapp/
+│
+├── contracts/
+│   └── LoR.sol
+│
+├── scripts/
+│   └── deploy.js
+│
+├── test/
+│   └── LoR.test.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── contract.js
+│   │
+│   └── package.json
+│
+├── screenshots/
+│
+├── hardhat.config.js
+├── .env
+├── package.json
+└── README.md
