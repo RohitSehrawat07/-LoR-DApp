@@ -1,0 +1,22 @@
+npx hardhat run scripts/deploy.js --network sepolia
+
+
+Output:
+
+Contract deployed to:
+0x1234....abcd
+
+Copy address.
+
+Search on:
+
+MetaMask
+Hardhat
+Etherscan
+
+Example:
+https://sepolia.etherscan.io/address/0x1234abcd...
+
+Take screenshot and save in:
+
+screenshots/
